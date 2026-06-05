@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Odpočet</title>
+<title>Odpočet 29 dní</title>
 
 <style>
     body {
@@ -75,6 +75,7 @@
 
 <div class="container">
     <h1>Odpočet 29 dní</h1>
+
     <div id="timer" class="timer">
         <div class="box">
             <div class="number" id="days">0</div>
@@ -96,7 +97,6 @@
 </div>
 
 <script>
-    // 29 dní od teď
     const targetDate = new Date().getTime() + 29 * 24 * 60 * 60 * 1000;
 
     function updateTimer() {
